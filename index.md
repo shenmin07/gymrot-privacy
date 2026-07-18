@@ -1,8 +1,9 @@
 # Privacy Policy — GymRot
 
-**Effective date:** July 9, 2026
+**Effective date:** July 17, 2026
 **Provided by:** the developer of GymRot
 **Contact:** gymrotsupport@gmail.com
+
 
 GymRot ("the app", "we") helps you earn screen time by completing workouts. This
 policy explains what data the app handles and why. We designed GymRot to keep as
@@ -18,7 +19,9 @@ store:
   private-relay address), and the **username** and **display name** you choose.
 - **Profile photo:** if you set one, the photo you pick (downscaled) is stored so
   friends can see it on the leaderboard and requests.
-- **Progress shown to friends:** your current **streak** and **avatar stage**.
+- **Progress shown to friends:** your current **streak**, **avatar stage**, and
+  **avatar customization** (the skin tone, outfit color, and hairstyle you pick
+  for your character).
 - **Friends:** friend requests and accepted friendships (the two user IDs and
   status).
 - **Shared plans:** when you share a workout plan, a snapshot of that plan is stored
@@ -37,7 +40,8 @@ store:
   location, health data, or content.
 
 Access to this data is restricted by row-level security: users can only read their
-own data plus the limited friend data (name, photo, streak, avatar stage) needed
+own data plus the limited friend data (name, photo, streak, avatar stage and
+style) needed
 for the leaderboard. Crash reports are write-only — not even you can read them back
 through the app.
 
