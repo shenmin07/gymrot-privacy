@@ -6,20 +6,23 @@
 <title>GymRot Privacy Policy</title>
 <meta name="description" content="GymRot's privacy policy: what data the app handles and why.">
 <style>
+  /* GymRot app palette (Theme.swift): ice / text / muted / grotto / navy */
   :root {
-    --bg: #FAFCFD;
-    --ink: #12242E;
-    --muted: #5A6E78;
+    --bg: #F0F7F8;
+    --ink: #06303F;
+    --muted: #5E8593;
     --accent: #189AB4;
-    --hairline: #E2ECEF;
+    --heading: #05445E;
+    --hairline: rgba(5, 68, 94, 0.16);
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #06202D;
-      --ink: #E3EEF2;
-      --muted: #8FA6B0;
-      --accent: #3DB8D2;
-      --hairline: #16394B;
+      --ink: #E6F3F5;
+      --muted: #8FB2BF;
+      --accent: #2FB3CC;
+      --heading: #E6F3F5;
+      --hairline: rgba(230, 243, 245, 0.16);
     }
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -32,9 +35,9 @@
     -webkit-font-smoothing: antialiased;
   }
   main {
-    max-width: 41rem;
+    max-width: 56rem;
     margin: 0 auto;
-    padding: 4rem 1.5rem 5rem;
+    padding: 4rem 2rem 5rem;
   }
   .wordmark, h1, h2, h3 {
     font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -47,12 +50,16 @@
     text-transform: uppercase;
   }
   h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.6rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
     line-height: 1.15;
+    color: var(--heading);
     margin: 0.4rem 0 0.9rem;
   }
+  h2, h3 { color: var(--heading); }
   .meta {
     color: var(--muted);
     font-size: 0.95rem;
